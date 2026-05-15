@@ -4,6 +4,9 @@ go 1.21
 
 // Personal fork of pressly/goose for learning and experimentation.
 // Upstream: https://github.com/pressly/goose
+//
+// Changes from upstream:
+// - Experimenting with alternative retry strategies for failed migrations
 require (
 	github.com/mfridman/interpolate v0.0.2
 	github.com/pressly/goose/v3 v3.17.0
